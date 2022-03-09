@@ -1,0 +1,10 @@
+#include <stdio.h>
+main (){
+int num;
+num = 2;
+printf("Este é o numero dois: %d \n \n",num);
+
+printf("Digite sua idade:\n");
+scanf("%d", &num);
+printf("Sua idade = %d", num);
+} 
